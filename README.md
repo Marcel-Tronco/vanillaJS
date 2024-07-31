@@ -24,6 +24,6 @@ Easy Ways to interact with form data, like gather data from a form or use it to 
 ## Promisify for the browser
 In one or the other way you might end up in the situation where you have callback-based code, that needs to be adapted to work with new code based on promises.
 
-On the server nodjs offers you `utils.promisify`, but browser do not. It's not to complicated though. Look here: [promisify.js](promisify.js)
+On the server nodejs offers you `utils.promisify`, but browser do not. It's not to complicated though. Look here: [promisify.js](promisify.js)
 
 Basicly the function takes a function that expects params and an errorFirstCallback at the last position and returns a function that returns a Promise that is rejected if the original callback would have contained an error or resolves to the value that would have been given to that callback instead.
