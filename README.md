@@ -22,7 +22,7 @@ Easy Ways to interact with form data, like gather data from a form or use it to 
 
 # Promises
 ## Promisify for the browser
-In one or the other way you might end up in the situation where you have callback-based code, that needs to be new code based on promises.
+In one or the other way you might end up in the situation where you have callback-based code, that needs to be adapted to work with new code based on promises.
 
 On the server nodjs offers you `utils.promisify`, but browser do not. It's not to complicated though. Look here: [promisify.js](promisify.js)
 
