@@ -14,7 +14,7 @@
 
 
 /**
- * Returns a promisified Version of the callback based 
+ * Returns a promisified Version of the given callback based function 
  * @param {errorFirstCallbackExpecter} functionToBePromisified 
  * @returns promisifiedFunction
  */
